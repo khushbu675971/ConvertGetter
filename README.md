@@ -8,13 +8,15 @@ sbt
 # Usage
 ConvertGetter can handle conversions of input strings to output strings such as the following examples:
 
-# Input String	    # Output String
-  getCurrency         Currency
-  getAccountName      Account_Name
-  getLongAccountName  Long_Account_Name
-  getTradeID          Trade_ID
-  getSWIFTCode        SWIFT_Code
-  getCurrencyVALUE    Currency_VALUE
+| Input String        | Output String |
+| ------------------- | ------------- |
+| getCurrency         | Currency      |
+| getAccountName      | Account_Name  |
+| getLongAccountName  | Long_Account_Name  |
+| getTradeID          | Trade_ID |
+| getSWIFTCode        | SWIFT_Code  |
+| getCurrencyVALUE    | Currency_VALUE  |
+
 
 Note: ConvertGetter only has to handle method names that start with ‘get’ and exclusively contain letters, i.e. no digit characters, etc.
 
